@@ -1,2 +1,2 @@
-# Atlanta-Docs
-Main repository for Codename Atlanta project
+# Joliet-Docs
+Main repository for Codename Joliet project
