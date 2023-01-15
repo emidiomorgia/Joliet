@@ -1,2 +1,2 @@
-# Joliet-Docs
-Main repository for Codename Joliet project
+# Joliet
+Repository for Codename Joliet project
