@@ -13,6 +13,17 @@ namespace ApiGateway
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
+            builder.Services.AddCors(options =>
+            {
+                options.AddDefaultPolicy(
+                    builder =>
+                    {
+                        builder.WithOrigins("https://joliet.fly.dev", "http://localhost:4200")
+                                            .AllowAnyHeader()
+                                            .AllowAnyMethod();
+                    });
+            });
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -22,6 +33,7 @@ namespace ApiGateway
                 app.UseSwaggerUI();
             }
 
+            app.UseCors();
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
