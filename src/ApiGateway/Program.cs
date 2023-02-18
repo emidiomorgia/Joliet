@@ -38,7 +38,6 @@ namespace ApiGateway
 
             app.UseAuthorization();
 
-
             app.MapControllers();
 
             app.Run();
