@@ -1,6 +1,6 @@
-# fly.toml file generated for apigateway on 2023-01-29T00:06:52+01:00
+# fly.toml file generated for joliet-apigateway on 2023-02-26T18:55:42+01:00
 
-app = "apigateway"
+app = "joliet-apigateway"
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []

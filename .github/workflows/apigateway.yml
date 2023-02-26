@@ -1,4 +1,4 @@
-name: Fly Deploy ApiGateway
+name: Fly Deploy joliet-apigateway
 on:
   push:
     branches:

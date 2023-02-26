@@ -1,3 +1,3 @@
 export const environment =  {
-  apiUrl : 'https://apigateway.fly.dev'
+  apiUrl : 'https://joliet-apigateway.fly.dev'
 }
